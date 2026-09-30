@@ -1,0 +1,18 @@
+Query 1:
+What is Retrieval Augmented Generation?
+
+Query 2:
+Can you explain RAG?
+
+Query 3:
+What is the capital of France?
+
+Query 4:
+Explain the capital city of France.
+
+Expected behavior:
+
+Query 1 → LLM
+Query 2 → Semantic Cache
+Query 3 → LLM
+Query 4 → Semantic Cache
